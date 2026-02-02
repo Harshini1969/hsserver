@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "json-server --watch data/server.json --port 10000"
+    "start": "npx json-server --watch data/server.json --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "json-server": "^0.17.4"
